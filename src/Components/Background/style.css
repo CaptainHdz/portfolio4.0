@@ -1,4 +1,40 @@
 #background {
-    background-image: url('https://images.wallpaperscraft.com/image/abstraction_sharp_figure_101902_1920x1080.jpg');
+    background-image: url('https://images.wallpaperscraft.com/image/plexus_lines_points_120093_1280x720.jpg');
     background-size: cover;
+    z-index: -1;
 }
+
+#headline {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5em;
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    margin: 15% 30%;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+   
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:  rgb(109, 177, 255) }
+  }
+
+  /* #sentence1 {
+    margin: 25% 20%;
+
+  } */
+
+  #sentence2 {
+    color: rgb(119, 202, 250);
+  }
+
+  #sentence3 {
+    border-right: .15em solid  rgb(109, 177, 255);
+    animation: 
+    /* typing 3.5s steps(30, end), */
+    blink-caret 1s step-end infinite;
+  }
