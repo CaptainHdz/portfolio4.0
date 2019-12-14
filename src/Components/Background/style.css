@@ -1,35 +1,44 @@
 #background {
-    background-image: url('https://images.wallpaperscraft.com/image/plexus_lines_points_120093_1280x720.jpg');
+    background-image: url('https://images.wallpaperscraft.com/image/light_sky_stars_background_85555_1920x1080.jpg');
     background-size: cover;
+    height: 100vh;
     z-index: -1;
+    position: relative;
 }
 
+/* .overlay {
+  background: black;
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+  position: absolute;
+  z-index: 0;
+
+
+} */
+
+
+
 #headline {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 3.5em;
     position: absolute;
-    z-index: 1;
-    background: transparent;
+    z-index: 0;
+    background: transparent ;
     margin: 15% 30%;
-    color: aliceblue;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
-   
+    color: aliceblue;  
 }
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color:  rgb(109, 177, 255) }
+    50% { border-color:  rgb(109, 255, 243) }
   }
 
-  /* #sentence1 {
-    margin: 25% 20%;
-
-  } */
+  
 
   #sentence2 {
-    color: rgb(119, 202, 250);
+    color: rgb(21, 239, 255);
+
   }
 
   #sentence3 {
@@ -38,3 +47,5 @@
     /* typing 3.5s steps(30, end), */
     blink-caret 1s step-end infinite;
   }
+
+  
