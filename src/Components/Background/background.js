@@ -20,7 +20,7 @@ class Background extends Component {
    
     render(){
         return (
-            <div id="background" data-aos="zoom-out" data-aos-duration="1200" >
+            <div id="background" data-aos="zoom-in"  data-aos-duration="1200" >
                     <h1 id="headline" >
                         <span id="sentence1">{this.state.sentence1}</span><br/>
                         <span id="sentence2">{this.state.sentence2}</span><br/>

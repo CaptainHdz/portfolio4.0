@@ -1,0 +1,81 @@
+#about {
+    height: 101vh;
+}
+
+#who {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(21, 239, 255);
+}
+
+#introduction {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+    margin-top: 70%;
+    margin-right: 20%;
+    z-index: 2;
+    position: absolute;
+    color: rgb(21, 239, 255);
+
+}
+
+#sentence2 {
+    color: rgb(21, 239, 255);
+
+  }
+
+#summary {
+    margin: 5em 0;
+    font-size: 1.5em;
+}
+
+#summ-intro {
+    color: rgb(21, 239, 255);
+    font-style: italic;
+}
+
+#picture-card {
+    box-shadow: 0 0 30px black;
+    margin: auto;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    margin-right: auto;
+    z-index: 0;
+    margin-top: 20%;
+    
+}
+#imgcontainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#picture {
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 30, 30);
+    left: 0;
+    z-index: 2;
+    opacity: .5;
+    margin-right: auto;
+}
+
+#left {
+    /* margin-top: 10%; */
+}
+
+.divider {
+    width: 33%;
+    margin: auto;
+}

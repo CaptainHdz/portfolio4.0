@@ -3,7 +3,7 @@
     background-size: cover;
     height: 100vh;
     z-index: -1;
-    position: relative;
+    /* position: relative; */
 }
 
 /* .overlay {
@@ -21,7 +21,7 @@
 
 #headline {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.5em;
+    font-size: 3em;
     position: absolute;
     z-index: 0;
     background: transparent ;
@@ -31,18 +31,11 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color:  rgb(109, 255, 243) }
-  }
-
-  
-
-  #sentence2 {
-    color: rgb(21, 239, 255);
-
+    50% { border-color:  rgb(21, 239, 255) }
   }
 
   #sentence3 {
-    border-right: .15em solid  rgb(109, 177, 255);
+    border-right: .15em solid  rgb(21, 239, 255);
     animation: 
     /* typing 3.5s steps(30, end), */
     blink-caret 1s step-end infinite;
