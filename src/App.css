@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: transparent;
+}
+
+#navbar {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav ul a {
+  font-size: 2rem;
+  padding: auto
+}
+
+nav ul a:hover {
+  color: rgb(21, 239, 255);
+
+}

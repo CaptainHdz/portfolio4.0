@@ -6,14 +6,7 @@ import IMG from './IMG_5620.jpg';
 const About = () => {
   return (
     <div id="about" className="grey darken-4">
-      <nav>
-        <div className="nav-wrapper black z-depth-4">
-          <ul id="nav-mobile" className="left hide-on-med-and-down">
-            <li><a href="sass.html">Contact</a></li>
-            <li><a href="badges.html">Work</a></li>
-          </ul>
-        </div>
-      </nav>
+      
     <h2 data-aos="zoom-in" data-aos-duration="1000" id="who" className="row">Who Am I?</h2>
     <hr className="divider" />
     <div className="container">
@@ -21,7 +14,7 @@ const About = () => {
         <div id="left" data-aos="fade-right" data-aos-duration="500" className="col s12 m6 white-text">
           <h3 id="introduction"  >
               <span id="">Hi!</span><br/>
-              <span id="sentence2">I'm Mauricio Hernandez.</span><br/>
+              <span id="sentence2-about">I'm Mauricio Hernandez.</span><br/>
               <span id="">I'm A Full Stack Software Developer.</span>
           </h3>
           <div id="picture-card" className="card z-depth-5">

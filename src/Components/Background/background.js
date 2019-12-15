@@ -5,15 +5,30 @@ import JSON from '../../particlesjs-config.json';
 
 class Background extends Component {
     state = {
-        sentence1: "Hi!",
-        sentence2: " I'm Mauricio Hernandez.",
-        sentence3: " I'm A Full Stack Software Developer."
+        sentence1: "Building The World.",
+        sentence2: " One Line Of Code At A Time.",
     }
 
     componentDidMount() {
-        
+        const incrementCounter = () => {
+            counter++;
+            if ( counter === len ) {
+                console.log( 'All images loaded!' );
+            }
+        }
         // const stringArr = ["What's Up! ", "I'm Mauricio Hernandez. ", "I'm A Full Stack Software Developer."];
-        
+        var imgs = document.images,
+    len = imgs.length,
+    counter = 0;
+
+[].forEach.call( imgs, ( img ) => {
+    if(img.complete)
+      incrementCounter();
+    else
+      img.addEventListener( 'load', incrementCounter, false );
+} );
+
+
                 
     }
 
@@ -21,11 +36,13 @@ class Background extends Component {
     render(){
         return (
             <div id="background" data-aos="zoom-in"  data-aos-duration="1200" >
-                    <h1 id="headline" >
-                        <span id="sentence1">{this.state.sentence1}</span><br/>
-                        <span id="sentence2">{this.state.sentence2}</span><br/>
-                        <span id="sentence3">{this.state.sentence3}</span>
-                    </h1>
+
+        
+
+                <h1 id="headline" >
+                    <span id="sentence1">{this.state.sentence1}</span>
+                    <span id="sentence2">{this.state.sentence2}</span>
+                </h1>
 
                     <Particles params={JSON} />
             </div>

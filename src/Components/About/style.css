@@ -1,8 +1,13 @@
 #about {
-    height: 101vh;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
 }
 
+
 #who {
+    padding-top: 5%;
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(21, 239, 255);
 }
@@ -32,7 +37,7 @@
 
 #summ-intro {
     color: rgb(21, 239, 255);
-    font-style: italic;
+    font-weight: bold;
 }
 
 #picture-card {
@@ -65,10 +70,10 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(12, 11, 11);
     left: 0;
     z-index: 2;
-    opacity: .5;
+    opacity: .3;
     margin-right: auto;
 }
 
@@ -79,4 +84,9 @@
 .divider {
     width: 33%;
     margin: auto;
+}
+
+.box-shadow {
+        box-shadow: 0 0 30px black;
+
 }
