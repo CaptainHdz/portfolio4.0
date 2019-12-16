@@ -77,16 +77,8 @@
     margin-right: auto;
 }
 
-#left {
-    /* margin-top: 10%; */
-}
-
 .divider {
     width: 33%;
     margin: auto;
 }
 
-.box-shadow {
-        box-shadow: 0 0 30px black;
-
-}

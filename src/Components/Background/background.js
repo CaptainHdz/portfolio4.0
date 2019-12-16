@@ -18,8 +18,8 @@ class Background extends Component {
         }
         // const stringArr = ["What's Up! ", "I'm Mauricio Hernandez. ", "I'm A Full Stack Software Developer."];
         var imgs = document.images,
-    len = imgs.length,
-    counter = 0;
+        len = imgs.length,
+        counter = 0;
 
 [].forEach.call( imgs, ( img ) => {
     if(img.complete)
