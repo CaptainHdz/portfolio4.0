@@ -6,6 +6,7 @@
 
 
 #who {
+    font-weight: bolder;
     padding-top: 5%;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -16,12 +17,19 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5em;
     font-style: italic;
+    font-weight: bold;
     margin-top: 70%;
     margin-right: 20%;
     z-index: 2;
     position: absolute;
     color: rgb(21, 239, 255);
+    transition: 1s
+}
 
+#introduction:hover {
+    transform: translate3d(-5px, 0px, 0px);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
 }
 
 #sentence2 {
@@ -30,14 +38,14 @@
   }
 
 #summary {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     margin: 5em 0;
     font-size: 1.5em;
 }
 
 #summ-intro {
     color: rgb(21, 239, 255);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #picture-card {
@@ -49,6 +57,7 @@
     margin-right: auto;
     z-index: 0;
     margin-top: 20%;
+    transition: 1s;
     
 }
 #imgcontainer {
@@ -75,6 +84,12 @@
     z-index: 2;
     opacity: .3;
     margin-right: auto;
+}
+
+#picture-card:hover {
+    transform: translate3d(-5px, 0px, 0px);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
 }
 
 .divider {
