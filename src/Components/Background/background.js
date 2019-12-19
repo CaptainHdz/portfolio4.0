@@ -12,21 +12,21 @@ class Background extends Component {
     componentDidMount() {
         const incrementCounter = () => {
             counter++;
-            if ( counter === len ) {
-                console.log( 'All images loaded!' );
+            if (counter === len) {
+                console.log('All images loaded!');
             }
         }
         // const stringArr = ["What's Up! ", "I'm Mauricio Hernandez. ", "I'm A Full Stack Software Developer."];
         var imgs = document.images,
-        len = imgs.length,
-        counter = 0;
+            len = imgs.length,
+            counter = 0;
 
-[].forEach.call( imgs, ( img ) => {
-    if(img.complete)
-      incrementCounter();
-    else
-      img.addEventListener( 'load', incrementCounter, false );
-} );
+        [].forEach.call(imgs, (img) => {
+            if (img.complete)
+                incrementCounter();
+            else
+                img.addEventListener('load', incrementCounter, false);
+        });
 
 
                 
