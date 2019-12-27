@@ -1,10 +1,11 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
+import Navbar from './Components/Navbar/navbar';
 import Background from './Components/Background/background';
 import About from './Components/About/about';
-import Navbar from './Components/Navbar/navbar';
 import Portfolio from './Components/Portfolio/portfolio';
+import Contact from './Components/Contact/contact';
 import AOS from 'aos';
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
           </Route>
 
           {/* <Route path="/about" component={About} /> */}
-          <Route exact path="/portfolio"><Portfolio/></Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+            <Contact />
+          </Route>
         </Switch>
       </Router>
     </div>

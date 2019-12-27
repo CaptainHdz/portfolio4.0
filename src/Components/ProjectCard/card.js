@@ -1,10 +1,15 @@
 import React from 'react';
-import 'style.css';
+import './style.css';
 
  
-const card = (props) => {
+const Card = (props) => {
 return (
-    <div className="card">
+    <div className="project-card col m4">
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator card-image" src={props.image} alt="project img" />
+        </div>
     </div>
 )
-}
+};
+
+export default Card;
