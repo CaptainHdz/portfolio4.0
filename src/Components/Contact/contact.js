@@ -6,8 +6,8 @@ const Contact = () => {
     return (
       <div id="contact" className="grey darken-3">
         <h2 id="contact-header" data-aos="fade-left" data-aos-duration="1000">Ready To Work Together?</h2>
-        <hr className="contact-divider" />
-        <div className="container">        
+        <hr className="contact-divider divider" />
+        <div id="form-container" className="container">        
           <form action="https://formspree.io/mayqdarw" method="POST" className="row">
             {/* <label>Your email:</label> */}
             <input className="col s8 offset-s2" type="text" placeholder="Email" name="_replyto" />

@@ -1,5 +1,6 @@
 #contact {
-    height: 80vh;
+    height: 85vh;
+    overflow-x: hidden;
 }
 
 #contact-header {
@@ -8,6 +9,10 @@
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(21, 239, 255);
+}
+
+#form-container {
+    margin-top: 1.5em;
 }
 
 #form-textbox {
