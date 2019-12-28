@@ -1,5 +1,5 @@
 #contact {
-    height: 85vh;
+    height: 95vh;
     overflow-x: hidden;
 }
 
@@ -18,6 +18,10 @@
 #form-textbox {
     width: 50%;
     height: 250px;
+}
+
+#form-textbox:focus {
+    border-color: rgb(255, 255, 255);
 }
 
 #form-button {

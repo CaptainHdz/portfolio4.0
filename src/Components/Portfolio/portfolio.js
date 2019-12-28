@@ -17,21 +17,28 @@ const Portfolio = () => {
                 <div className="row">
                 <Card
                 image={clickyGame}
+                text="Simple and Fun Memory Game"
                 />
                 <Card
                 image={Giphy}
+                text="Web App that Searches for GIFs"
                 />
                 <Card
                 image={Scraper}
+                text="Save, and Read Financial News"
                 />
                 <Card
                 image={Traded}
+                text="Educative Stock Market Platform"
                 />
                 <Card
                 image={ComingSoon}
+                text="More Apps Coming Soon"
                 />
                 <Card
                 image={ComingSoon}
+                text="More Apps Coming Soon"
+
                 />
                 </div>
             </div>
