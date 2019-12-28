@@ -15,10 +15,10 @@
     height: 250px;
 }
 
-.form-width {
-    /* width: 25%; */
+#form-button {
+    margin-top: 1.5em;
+    background-color: rgb(14, 188, 201)
 }
-
 .contact-divider {
     width: 50%;
 }
