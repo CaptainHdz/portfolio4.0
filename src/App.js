@@ -20,6 +20,7 @@ function App() {
           <Route exact path="/">
             <Background />
             <About />
+            <Footer />
           </Route>
 
           {/* <Route path="/about" component={About} /> */}

@@ -5,8 +5,8 @@ import './style.css';
 const Footer = () => {
     return (
       <div id="footer">
-        <footer className="page-footer">
-          <div className="container">
+        <footer className="page-footer black">
+          {/* <div className="container">
             <div className="row">
               <div className="col l6 s12">
                 <h5 className="white-text">Footer Content</h5>
@@ -17,8 +17,8 @@ const Footer = () => {
                 
               </div>
             </div>
-          </div>
-          <div className="footer-copyright">
+          </div> */}
+          <div className="footer-copyright black">
             <div className="container">
               © 2019 Mauricio Hernandez
               <a className="grey-text text-lighten-4 right" href="#!">

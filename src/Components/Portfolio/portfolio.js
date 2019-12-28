@@ -11,9 +11,9 @@ import ComingSoon from './Images/coming-soon.png';
 const Portfolio = () => {
     return (
         <div id="portfolio" className="grey darken-4">
-            <h2 id="portfolio-header" className="row">Check Out My Work</h2>
+            <h2 id="portfolio-header" className="row" data-aos="fade-down" data-aos-delay="500">Check Out My Work</h2>
             <hr className="divider" />
-            <div id="portfolio-container" className="container">
+            <div id="portfolio-container" className="container" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
                 <div className="row">
                 <Card
                 image={clickyGame}
