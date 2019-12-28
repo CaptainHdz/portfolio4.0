@@ -12,7 +12,7 @@ const Navbar = () => {
                 <ul className="left hide-on-med-and-down">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/#about">About</Link></li>    
-                    <li><Link to="/portfolio">Portfolio</Link></li>
+                    <li><Link to="/portfolio#portfolio">Portfolio</Link></li>
                     <li><Link to="/portfolio#contact">Contact</Link></li>
                 </ul>
                 </div>
