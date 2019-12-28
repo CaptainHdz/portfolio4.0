@@ -6,6 +6,7 @@ import Background from './Components/Background/background';
 import About from './Components/About/about';
 import Portfolio from './Components/Portfolio/portfolio';
 import Contact from './Components/Contact/contact';
+import Footer from './Components/Footer/footer';
 import AOS from 'aos';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/portfolio">
             <Portfolio />
             <Contact />
+            <Footer />
           </Route>
         </Switch>
       </Router>
