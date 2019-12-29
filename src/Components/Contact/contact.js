@@ -18,7 +18,7 @@ const Contact = () => {
             {/* <label>Your message:</label> */}
             <textarea id="form-textbox" className="col s12 offset-s3 white-text" placeholder="Your Message" name="message"></textarea>
 
-            <button id="form-button" type="submit" className="col s4 offset-s4 btn waves-effect waves-light">Send</button>
+            <button id="form-button" type="submit" className="col s2 offset-s5 btn waves-effect waves-light">Send</button>
           </form>
         </div>
       </div>
