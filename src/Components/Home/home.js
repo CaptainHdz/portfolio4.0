@@ -3,7 +3,7 @@ import './style.css';
 import Particles from 'react-particles-js';
 import JSON from '../../particlesjs-config.json';
 
-class Background extends Component {
+class Home extends Component {
     state = {
         sentence1: "Building The World.",
         sentence2: " One Line Of Code At A Time.",
@@ -35,7 +35,7 @@ class Background extends Component {
    
     render(){
         return (
-            <div id="background" data-aos="zoom-in"  data-aos-duration="1200" >
+            <div id="home" data-aos="zoom-in"  data-aos-duration="1200" >
 
         
 
@@ -52,4 +52,4 @@ class Background extends Component {
  
 }
 
-export default Background
+export default Home

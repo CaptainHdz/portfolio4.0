@@ -9,7 +9,7 @@ return (
             <img class="activator card-image" src={props.image} alt="project img" />
             <div className="card-overlay white-text">
                 <h3 className="card-header">{props.text}</h3>
-                <button className="btn">Visit</button>
+                <button id="card-button" className="btn">Visit</button>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar/navbar';
-import Background from './Components/Background/background';
+import Home from './Components/Home/home';
 import About from './Components/About/about';
 import Portfolio from './Components/Portfolio/portfolio';
 import Contact from './Components/Contact/contact';
@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <Background />
+            <Home />
             <About />
             <Footer />
           </Route>
