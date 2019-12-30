@@ -47,3 +47,7 @@
     background-color: rgb(21, 239, 255);
 }
 
+.btn-disabled {
+    border-color: transparent !important;
+}
+
