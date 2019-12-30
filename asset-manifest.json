@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio4.0/static/css/main.7b53b9b4.chunk.css",
+    "main.js": "/portfolio4.0/static/js/main.68fa8bd1.chunk.js",
+    "main.js.map": "/portfolio4.0/static/js/main.68fa8bd1.chunk.js.map",
+    "runtime-main.js": "/portfolio4.0/static/js/runtime-main.9d6e0c12.js",
+    "runtime-main.js.map": "/portfolio4.0/static/js/runtime-main.9d6e0c12.js.map",
+    "static/js/2.292b6235.chunk.js": "/portfolio4.0/static/js/2.292b6235.chunk.js",
+    "static/js/2.292b6235.chunk.js.map": "/portfolio4.0/static/js/2.292b6235.chunk.js.map",
+    "index.html": "/portfolio4.0/index.html",
+    "precache-manifest.d61f6cd1423e3f2bfc2d72867811f5e7.js": "/portfolio4.0/precache-manifest.d61f6cd1423e3f2bfc2d72867811f5e7.js",
+    "service-worker.js": "/portfolio4.0/service-worker.js",
+    "static/css/main.7b53b9b4.chunk.css.map": "/portfolio4.0/static/css/main.7b53b9b4.chunk.css.map",
+    "static/js/2.292b6235.chunk.js.LICENSE": "/portfolio4.0/static/js/2.292b6235.chunk.js.LICENSE",
+    "static/media/Dollar-Scrape.PNG": "/portfolio4.0/static/media/Dollar-Scrape.a4903357.PNG",
+    "static/media/GIPHY.png": "/portfolio4.0/static/media/GIPHY.633d0b13.png",
+    "static/media/IMG_5620.jpg": "/portfolio4.0/static/media/IMG_5620.276683ae.jpg",
+    "static/media/TradED.png": "/portfolio4.0/static/media/TradED.e5161e4d.png",
+    "static/media/style.css": "/portfolio4.0/static/media/blue-space.558d96ae.jpg",
+    "static/media/clicky-game-zoom.png": "/portfolio4.0/static/media/clicky-game-zoom.7044dfb5.png",
+    "static/media/coming-soon.png": "/portfolio4.0/static/media/coming-soon.690dc4b9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d6e0c12.js",
+    "static/js/2.292b6235.chunk.js",
+    "static/css/main.7b53b9b4.chunk.css",
+    "static/js/main.68fa8bd1.chunk.js"
+  ]
+}
