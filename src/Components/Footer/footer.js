@@ -1,5 +1,8 @@
 import React from 'react';
 import './style.css';
+import '@fortawesome/fontawesome-free';
+import Github from './Icons/Github-icon.png';
+import LinkedIn from './Icons/LinkedIN-icon.png';
 
 
 const Footer = () => {
@@ -20,11 +23,10 @@ const Footer = () => {
           </div> */}
           <div className="footer-copyright black">
             <div className="container">
-              © 2019 Mauricio Hernandez
-              <a className="grey-text text-lighten-4 right" href="#!">
-                More Links
-              </a>
-            </div>
+             <div className="left">© 2019 Mauricio Hernandez</div> 
+              <i className="fa fa-github-alt github small right"></i>
+              <i class="fa fa-linkedin linked-in small right"></i>
+             </div>
           </div>
         </footer>
       </div>
