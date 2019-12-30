@@ -14,7 +14,7 @@ function App() {
   AOS.init();
   return (
     <div className="App">
-      <Router>
+      <Router basename="/portfolio4.0">
         <Navbar />
         <Switch>
           <Route exact path="/">
