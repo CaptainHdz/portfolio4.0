@@ -1,5 +1,6 @@
 .github:hover {
    color: white;
+   transition: .3s;
 }
 
 .linked-in {
@@ -8,4 +9,5 @@
 
 .linked-in:hover {
     color: white;
+    transition: .3s;
 }
