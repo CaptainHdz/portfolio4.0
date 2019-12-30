@@ -1,5 +1,5 @@
 #home {
-    background-image: url('https://images.wallpaperscraft.com/image/light_sky_stars_background_85555_1280x720.jpg');
+    background-image: url('./blue-space.jpg');
     background-size: cover;
     height: 100vh;
     z-index: 0;
@@ -27,5 +27,22 @@
     /* typing 3.5s steps(30, end), */
     blink-caret 1s step-end infinite;
   }
+
+  #down-arrow {
+    margin-top: 33%;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+    left: 46%;
+    border: 1px solid white;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  #down-arrow:hover {
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  
 
   

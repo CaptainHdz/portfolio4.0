@@ -16,7 +16,6 @@ class Home extends Component {
                 console.log('All images loaded!');
             }
         }
-        // const stringArr = ["What's Up! ", "I'm Mauricio Hernandez. ", "I'm A Full Stack Software Developer."];
         var imgs = document.images,
             len = imgs.length,
             counter = 0;
@@ -29,6 +28,11 @@ class Home extends Component {
         });
 
 
+        const downArrow = document.getElementById('down-arrow');
+        downArrow.addEventListener('click', () => {
+            const about = document.getElementById('about');
+            about.scrollIntoView({behavior: 'smooth'})
+        })
                 
     }
 
@@ -37,13 +41,11 @@ class Home extends Component {
         return (
             <div id="home" data-aos="zoom-in"  data-aos-duration="1200" >
 
-        
-
                 <h1 id="headline" >
                     <span id="sentence1">{this.state.sentence1}</span>
                     <span id="sentence2">{this.state.sentence2}</span>
                 </h1>
-
+                <i id="down-arrow" className="material-icons large white-text">keyboard_arrow_down</i>
                     <Particles params={JSON} />
             </div>
 

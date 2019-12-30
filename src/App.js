@@ -23,7 +23,6 @@ function App() {
             <Footer />
           </Route>
 
-          {/* <Route path="/about" component={About} /> */}
           <Route exact path="/portfolio">
             <Portfolio />
             <Contact />
