@@ -97,3 +97,18 @@
     margin: auto;
 }
 
+#right-arrow {
+    z-index: 1;
+    position: absolute;
+    border: 1px solid white;
+    right: 5%;
+    bottom: 5%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#right-arrow:hover {
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+

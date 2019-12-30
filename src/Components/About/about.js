@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 // import 'materialize-css'
 import IMG from './IMG_5620.jpg';
+import {HashLink as Link } from "react-router-hash-link";
 
 const About = () => {
   return (
@@ -29,6 +30,7 @@ const About = () => {
         </p>
       </div>
     </div>
+    <i id="right-arrow" className="material-icons large"><Link className="white-text" to="/portfolio#portfolio">keyboard_arrow_right</Link></i>
       
     </div>
   );
