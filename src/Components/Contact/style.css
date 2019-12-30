@@ -26,7 +26,13 @@
 
 #form-button {
     margin-top: 1.5em;
-    background-color: rgb(14, 188, 201)
+    background-color: transparent;
+    border: 2px solid rgb(21, 239, 255);
+    transition: .5s;
+}
+
+#form-button:hover {
+    background-color: rgb(21, 239, 255);
 }
 .contact-divider {
     width: 50%;
