@@ -1,13 +1,16 @@
-#about {
-    /* height: 100vh; */
-    /* z-index: 1; */
-    /* position: relative; */
+@media (min-width: 600px) {
+    #about {
+        height: 100vh;
+        position: relative;
+        z-index: 2;
+    }
 }
 
 
 #who {
     font-weight: bolder;
     margin: 0;
+    padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(21, 239, 255);
 }

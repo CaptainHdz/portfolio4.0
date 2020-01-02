@@ -44,7 +44,7 @@ nav {
       display: none;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
     #menu-icon {
         position: relative;
         left: 10px;
