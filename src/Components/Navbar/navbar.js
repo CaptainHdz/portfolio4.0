@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import {HashLink as Link} from 'react-router-hash-link';
-import M from 'materialize-css';
 
 const Navbar = () => {
     //Set screen to top
