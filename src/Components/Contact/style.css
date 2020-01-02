@@ -1,5 +1,4 @@
 #contact {
-    height: 95vh;
     overflow-x: hidden;
 }
 
@@ -16,7 +15,6 @@
 }
 
 #form-textbox {
-    width: 50%;
     height: 250px;
 }
 

@@ -1,19 +1,23 @@
 #about {
-    height: 100vh;
-    z-index: 1;
-    position: relative;
+    /* height: 100vh; */
+    /* z-index: 1; */
+    /* position: relative; */
 }
 
 
 #who {
     font-weight: bolder;
-    padding-top: 5%;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(21, 239, 255);
 }
 
+#about-row-1 {
+    margin-bottom: 0;
+}
+
 #introduction {
+    text-shadow: black 0 0 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5em;
     font-style: italic;
@@ -32,10 +36,7 @@
     backface-visibility: hidden;
 }
 
-#sentence2 {
-    color: rgb(21, 239, 255);
 
-  }
 
 #summary {
     font-family: 'Open Sans', sans-serif;
@@ -48,45 +49,34 @@
     font-weight: bolder;
 }
 
-#picture-card {
-    box-shadow: 0 0 30px black;
-    margin: auto;
-    height: 450px;
-    width: 350px;
-    position: absolute;
-    margin-right: auto;
-    z-index: 0;
-    margin-top: 20%;
-    transition: 1s;
-    
-}
-#imgcontainer {
+#img-container {
+    margin-top: 10%;
     position: relative;
     height: 100%;
     width: 100%;
+    border-radius: 5%;
+    transition: 1s;
 }
 
 #picture {
-    position: absolute;
+    border-radius: 5%;
     max-width: 100%;
     height: 100%;
     width: 100%;
-    z-index: 1;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 #overlay {
+    border-radius: 5%;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 99.2%;
     background-color: rgb(12, 11, 11);
     left: 0;
-    z-index: 2;
-    opacity: .2;
-    margin-right: auto;
+    opacity: .3;
 }
 
-#picture-card:hover {
+#img-container:hover {
     transform: translate3d(-5px, 0px, 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
@@ -98,11 +88,10 @@
 }
 
 #right-arrow {
-    z-index: 1;
-    position: absolute;
+    position: relative;
     border: 1px solid white;
     right: 5%;
-    bottom: 5%;
+    bottom: 1%;
     cursor: pointer;
     transition: .5s;
 }
@@ -110,5 +99,13 @@
 #right-arrow:hover {
     border-radius: 50%;
     border: 3px solid white;
+  }
+
+
+  @media (min-width: 600px) {
+#img-container {
+    margin-top: 20%;
+    width: 70%;
+}
   }
 

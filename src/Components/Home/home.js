@@ -40,13 +40,12 @@ class Home extends Component {
     render(){
         return (
             <div id="home" data-aos="zoom-in"  data-aos-duration="1200" >
-
+                <Particles id="particles" params={JSON} />
                 <h1 id="headline" >
                     <span id="sentence1">{this.state.sentence1}</span>
                     <span id="sentence2">{this.state.sentence2}</span>
                 </h1>
-                <i id="down-arrow" className="material-icons large white-text">keyboard_arrow_down</i>
-                    <Particles params={JSON} />
+                <i id="down-arrow" className="material-icons large white-text col s12">keyboard_arrow_down</i>
             </div>
 
         );
