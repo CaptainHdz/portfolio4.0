@@ -5,7 +5,7 @@ import ClickyGame from './Images/clicky-game-zoom.png';
 import Giphy from './Images/GIPHY.png';
 import Scraper from './Images/Dollar-Scrape.PNG';
 import Traded from './Images/TradED.png';
-import ComingSoon from './Images/coming-soon.png';
+import PowerList from './Images/power-list.PNG';
 import BookTastic from './Images/Book-Finder2-screenshot.jpg';
 
 
@@ -16,6 +16,12 @@ const Portfolio = () => {
             <hr className="divider" />
             <div id="portfolio-container" className="container row" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
                 <div className="">
+                <Card
+                image={BookTastic}
+                text="Search A Huge Variety Of Books"
+                link="https://book-finder2.herokuapp.com/"
+                buttonClass="btn-large waves-effect"
+                />    
                 <Card
                 image={ClickyGame}
                 text="Simple and Fun Memory Game"
@@ -36,22 +42,17 @@ const Portfolio = () => {
                 buttonClass="btn-large waves-effect"
                 />
                 <Card
+                image={PowerList}
+                text="Manage and Win your Day"
+                link="https://obscure-shelf-60013.herokuapp.com/"
+                buttonClass="btn-large waves-effect"
+                />
+                <Card
                 image={Giphy}
                 text="Web App that Searches for GIFs"
                 link="https://captainhdz.github.io/giphy-app/"
                 buttonClass="btn-large waves-effect"
-                />
-                <Card
-                image={BookTastic}
-                text="Search A Huge Variety Of Books"
-                link="https://book-finder2.herokuapp.com/"
-                buttonClass="btn-large waves-effect"
-                />
-                <Card
-                image={ComingSoon}
-                text="More Apps Coming Soon"
-                buttonClass="btn-large disabled btn-disabled"
-                />
+                />                            
                 </div>
             </div>
 
