@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a18ff7cc18a83e59fa9da66a3b30d66",
+    "revision": "ba4f47bbe2407d1afe81c8de1952b2b7",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.6a906a3b.chunk.css"
   },
   {
-    "revision": "fb0bed637c8a157cda18",
+    "revision": "28e2fac0d103269f027f",
     "url": "/static/css/main.65154a3f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cd1afc66.chunk.js.LICENSE"
   },
   {
-    "revision": "fb0bed637c8a157cda18",
-    "url": "/static/js/main.f69c3f48.chunk.js"
+    "revision": "28e2fac0d103269f027f",
+    "url": "/static/js/main.5f530462.chunk.js"
   },
   {
     "revision": "4d46a89461a414c89f66",
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/clicky-game-zoom.7044dfb5.png"
   },
   {
-    "revision": "690dc4b93598d237cb282f0f309eb9a7",
-    "url": "/static/media/coming-soon.690dc4b9.png"
+    "revision": "76b6f98f8aa4d77f3944e291a68eed42",
+    "url": "/static/media/power-list.76b6f98f.PNG"
   }
 ]);
