@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Card from '../ProjectCard/card';
+import Card from '../Card/card';
 import ClickyGame from './Images/clicky-game-zoom.png';
 import Giphy from './Images/GIPHY.png';
 import Scraper from './Images/Dollar-Scrape.PNG';
@@ -12,46 +12,45 @@ import BookTastic from './Images/Book-Finder2-screenshot.jpg';
 const Portfolio = () => {
     return (
         <div id="portfolio" className="grey darken-4">
-            <h2 id="portfolio-header" className="row" data-aos="fade-down" data-aos-duration="100" data-aos-delay="500">Check Out My Work</h2>
+            <h2 id="portfolio-header" className="row" data-aos="fade-down" data-aos-duration="500" data-aos-delay="500">Check Out My Work</h2>
             <hr className="divider" />
-            <div id="portfolio-container" className="container row" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+            <div id="portfolio-container" className="container row" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                 <div className="">
                 <Card
                 image={BookTastic}
-                text="Search A Huge Variety Of Books"
+                text="Book-Tastic"
+                techStack="React.JS | Sequelize/SQL | Express.js"
                 link="https://book-finder2.herokuapp.com/"
-                buttonClass="btn-large waves-effect"
-                />    
-                <Card
-                image={ClickyGame}
-                text="Simple and Fun Memory Game"
-                link="https://captainhdz.github.io/clicky-pokemonsters/"
-                buttonClass="btn-large waves-effect"
-                />
-                
+                />                 
                 <Card
                 image={Scraper}
-                text="Save, and Read Financial News"
+                text="Financial News"
+                techStack="Handlebars.JS | Node.JS | MongoDB"
                 link="https://tranquil-denali-preserve-30101.herokuapp.com/"
-                buttonClass="btn-large waves-effect"
+                />
+                <Card
+                image={ClickyGame}
+                text="Pokememory"
+                techStack="React.JS | HTML5 | CSS3"
+                link="https://captainhdz.github.io/clicky-pokemonsters/"
                 />
                 <Card
                 image={Traded}
-                text="Educative Stock Market Platform"
+                text="Traded"
+                techStack="React.JS | Node.JS | MongoDB"
                 link="https://traded1.herokuapp.com/"
-                buttonClass="btn-large waves-effect"
                 />
                 <Card
                 image={PowerList}
-                text="Manage and Win your Day"
+                text="The Power List"
+                techStack="React.JS | Node.JS | MongoDB"
                 link="https://obscure-shelf-60013.herokuapp.com/"
-                buttonClass="btn-large waves-effect"
                 />
                 <Card
                 image={Giphy}
-                text="Web App that Searches for GIFs"
+                text="GIF Machine"
+                techStack="Javascript | jQuery | HTML5 | CSS3"
                 link="https://captainhdz.github.io/giphy-app/"
-                buttonClass="btn-large waves-effect"
                 />                            
                 </div>
             </div>
