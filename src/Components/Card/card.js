@@ -4,13 +4,13 @@ import './style.css';
  
 const Card = (props) => {
 return (
-    <div className="project-card col s12 m6">
-        <div className="card-container waves-effect waves-block waves-light">
+    <div id={props.id} className="project-card col s12 m6">
+        <div className="card-container">
             <img className="card-image activator" src={props.image} alt="project img" />
             <div className="card-overlay white-text">
                 <h3 className="card-header">{props.text}</h3>
                 <h5 className="cyan-text text-lighten-1">{props.techStack}</h5>
-                <a href={props.link} target="_blank" rel="noopener noreferrer" id="card-button" className="btn-large z-depth-0 waves-effect">Learn More</a>
+                <button id="card-button" className="btn-large z-depth-0 modal-trigger" onClick={() => props.click(props.id)}>Learn More</button>
             </div>
         </div>
     </div>

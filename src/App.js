@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashRouter, Route} from 'react-router-dom';
 import './App.css';
-import 'materialize-css/dist/css/materialize.min.css';
 import Navbar from './Components/Navbar/navbar';
 import Home from './Components/Home/home';
 import About from './Components/About/about';
@@ -13,6 +12,7 @@ import AOS from 'aos';
 function App() {
 
   AOS.init();
+
   return (
     <div className="App">
       <HashRouter >

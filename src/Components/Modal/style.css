@@ -1,0 +1,33 @@
+.visit-btn {
+    color: black;
+    background-color: transparent;
+    border: 2px solid royalblue;
+    border-radius: 50rem;
+    transition: .5s;
+}
+
+.visit-btn:hover {
+    background-color: royalblue;
+    color: aliceblue;
+}
+
+.code-btn {
+    color: black;
+    background-color: transparent;
+    border-radius: 50rem;
+    border: 2px solid red;
+    transition: .5s;
+}
+
+.code-btn:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.padding-0 {
+    padding: 0 0 !important;
+}
