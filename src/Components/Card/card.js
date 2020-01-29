@@ -4,7 +4,7 @@ import './style.css';
  
 const Card = (props) => {
 return (
-    <div id={props.id} className="project-card col s12 m6">
+    <div id={props.id} video={props.video} githubLink={props.github} deployedLink={props.link} className="project-card col s12 m6">
         <div className="card-container">
             <img className="card-image activator" src={props.image} alt="project img" />
             <div className="card-overlay white-text">

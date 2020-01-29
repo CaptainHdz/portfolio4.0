@@ -31,3 +31,20 @@
 .padding-0 {
     padding: 0 0 !important;
 }
+
+.modal-content {
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.modal-header {
+}
+
+.video-col {
+    height: 100%;
+    background-color: black;
+}
+.video {
+    margin-top: 2.5%;
+    width: 100%;
+}
