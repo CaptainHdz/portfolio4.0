@@ -31,11 +31,38 @@ class Portfolio extends Component {
         modal: false
     };
 
+    componentDidMount() {
+        const portfolio = document.getElementById('portfolio');
+        const nav = document.getElementById('nav-mobile');
+        const handleScroll = () => {
+            const scroll = window.scrollY;
+            if (scroll > 100) {
+                nav.children[0].children[0].classList.add('black-link')
+                nav.children[1].children[0].classList.add('black-link')
+                nav.children[2].children[0].classList.add('black-link')
+                nav.children[3].children[0].classList.add('black-link')
+
+            }
+            else if (scroll < 100) {
+                nav.children[0].children[0].classList.remove('black-link')
+                nav.children[1].children[0].classList.remove('black-link')
+                nav.children[2].children[0].classList.remove('black-link')
+                nav.children[3].children[0].classList.remove('black-link')
+            }
+        };
+        portfolio.addEventListener('mouseover', () => {
+            window.addEventListener('scroll', handleScroll);
+        });
+
+        portfolio.addEventListener('mouseout', () => {
+            window.removeEventListener('scroll', handleScroll)
+        });
+    }
+
     modal = (id) => {
-        //We need the following things:
-        //techStack-done
         document.body.style.position = 'auto';
         document.body.style.overflow = 'hidden';
+
         const card = document.getElementById(id);
         const title = card.children[0].children[1].children[0].innerHTML;
         const techStack = card.getAttribute('techStack');
@@ -43,6 +70,7 @@ class Portfolio extends Component {
         const description = card.getAttribute('description');
         const projectLink = card.getAttribute('deployedlink');
         const github = card.getAttribute('githublink');
+
         this.setState({
             title: title,
             stack: techStack,

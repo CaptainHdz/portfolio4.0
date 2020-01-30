@@ -3,6 +3,7 @@ import './style.css';
 
  
 const Card = (props) => {
+
 return (
     <div
      id={props.id} 

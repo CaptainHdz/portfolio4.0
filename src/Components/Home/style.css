@@ -2,36 +2,38 @@
     background-image: url('./blue-space.jpg');
     background-size: cover;
     height: 100vh;
-    /* z-index: 0; */
-    /* position: relative; */
 }
 
 #headline {
     font-family: 'Ubuntu', sans-serif;
     font-size: 4em;
-    position: absolute;
-    top: 33%;
-    z-index: 0;
-    background: transparent;
-    margin: 0 10%;
-    color: aliceblue;  
-}
-
-canvas {
-  display: none;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 0;
+    top: 30%;
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color:  rgb(21, 239, 255) }
-  }
+  from, to { border-color: transparent }
+  50% { border-color:  rgb(21, 239, 255) }
+}
 
-  #sentence2 {
-    color: rgb(21, 239, 255);
-    border-right: .15em solid  rgb(21, 239, 255);
-    animation: 
-    blink-caret 1s step-end infinite;
-  }
+#sentence2 {
+  color: rgb(21, 239, 255);
+  border-right: .15em solid  rgb(21, 239, 255);
+  animation: 
+  blink-caret 1s step-end infinite;
+}
+
+.canvas-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -10 !important;
+  height: 100%;
+}
 
   #down-arrow {
     background-color: transparent;
@@ -39,8 +41,10 @@ canvas {
     transition: .5s;
     cursor: pointer;
     position: absolute;
-    bottom: 5%;
+    z-index: 0;
     left: 40%;
+    bottom: 15%;
+    margin: 0 auto;
   }
 
   #down-arrow:hover {
@@ -49,14 +53,15 @@ canvas {
   }
 
   @media only screen and (min-width: 600px)  {
-  #down-arrow {
-    left: 46%;
-    bottom: 15%;
-  }    
-  canvas {
-    z-index: -10;
-    display: inline;
-  }
+
+    #headline {
+      top: 40%;
+    }
+
+    #down-arrow {
+      left: 46%;
+    }
+  
   }
   
 

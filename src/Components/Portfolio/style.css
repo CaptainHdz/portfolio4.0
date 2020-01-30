@@ -1,8 +1,3 @@
-#portfolio {
-    /* -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
-            /* animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
-}
-
 #portfolio-container {
   margin-top: 5%;
   margin-bottom: 0;
@@ -10,7 +5,7 @@
 
 #portfolio-header {
     font-weight: bolder;
-    padding-top: 3%;
+    padding-top: 5%;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(21, 239, 255);
