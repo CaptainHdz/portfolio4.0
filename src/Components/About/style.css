@@ -1,6 +1,5 @@
 @media (min-width: 600px) {
     #about {
-        height: 100vh;
         position: relative;
         z-index: 2;
     }
@@ -43,7 +42,8 @@
 
 #summary {
     font-family: 'Open Sans', sans-serif;
-    margin: 5em 0;
+    margin-top: 20%;
+    margin-bottom: 10%;
     font-size: 1.5em;
 }
 
@@ -93,8 +93,8 @@
 #right-arrow {
     position: relative;
     border: 1px solid white;
-    right: 5%;
-    bottom: 1%;
+    right: -30%;
+    bottom: 5%;
     cursor: pointer;
     transition: .5s;
 }
