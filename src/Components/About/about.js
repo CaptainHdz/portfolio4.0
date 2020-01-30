@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import IMG from './IMG_5620.jpg';
+import IMG from './IMG.jpg';
 import {HashLink as Link } from "react-router-hash-link";
 
 const About = () => {
