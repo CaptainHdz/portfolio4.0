@@ -1,4 +1,6 @@
-.visit-btn {
+#visit-btn {
+    margin: 0 20%;
+    margin-bottom: 5%;
     color: black;
     background-color: transparent;
     border: 2px solid royalblue;
@@ -6,12 +8,14 @@
     transition: .5s;
 }
 
-.visit-btn:hover {
+#visit-btn:hover {
     background-color: royalblue;
     color: aliceblue;
 }
 
-.code-btn {
+#code-btn {
+    margin: 0 20%;
+    margin-bottom: 5%;
     color: black;
     background-color: transparent;
     border-radius: 50rem;
@@ -19,9 +23,13 @@
     transition: .5s;
 }
 
-.code-btn:hover {
+#code-btn:hover {
     background-color: red;
     color: aliceblue;
+}
+
+.tech-stack {
+    margin-bottom: 5%;
 }
 
 .center-txt {
@@ -38,6 +46,7 @@
 }
 
 .modal-header {
+    margin-top: 1%;
 }
 
 .video-col {
@@ -47,4 +56,19 @@
 .video {
     margin-top: 2.5%;
     width: 100%;
+}
+
+.close-container {
+    padding-right: 5px;
+    position: absolute;
+    bottom: 0px !important;
+    right: 0px;
+}
+
+.close-btn {
+    margin-bottom: 0;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
 }

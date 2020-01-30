@@ -16,6 +16,8 @@ import WorldFinance from './video/World-Finance-Report.mp4';
 import TradED from './video/TradED.mp4';
 import GifMachine from './video/GIF-Demo.mp4';
 import PowerList from './video/Power-List.mp4';
+//Descriptions
+import Descriptions from '../../project-description.json';
 
 
 class Portfolio extends Component {
@@ -24,42 +26,38 @@ class Portfolio extends Component {
         stack: '',
         video: '',
         projectLink: '',
+        codeLink: '',
+        description: '',
         modal: false
     };
 
     modal = (id) => {
         //We need the following things:
-        //A title-done
         //techStack-done
-        //A project link-done
-        //A github link
-        //A description
-        //A video showing the project in action-done
         document.body.style.position = 'auto';
         document.body.style.overflow = 'hidden';
         const card = document.getElementById(id);
         const title = card.children[0].children[1].children[0].innerHTML;
-        const techStack = card.children[0].children[1].children[1].innerHTML;
+        const techStack = card.getAttribute('techStack');
         const video = card.getAttribute('video');
-        const projectLink = card.getAttribute('deployedLink')
+        const description = card.getAttribute('description');
+        const projectLink = card.getAttribute('deployedlink');
+        const github = card.getAttribute('githublink');
         this.setState({
             title: title,
             stack: techStack,
             video: video,
             projectLink: projectLink,
+            codeLink: github,
+            description: description,
             modal: true
         });
     };
 
     closeModal = () => {
         this.setState({
-            modal: false,
-            title: '',
-            stack: '',
-            video: '',
-            project: '',
-
-        })
+            modal: false
+        });
 		document.body.style.overflow = '';
 	};
 
@@ -72,7 +70,9 @@ class Portfolio extends Component {
                  title={this.state.title}
                  video={this.state.video}
                  project={this.state.projectLink}
+                 codeLink={this.state.codeLink}
                  projectStack={this.state.stack}
+                 projectDescription={this.state.description}
                  open={this.state.modal}
                  closeModal={this.closeModal}
                  />
@@ -83,8 +83,11 @@ class Portfolio extends Component {
                     image={BookTasticIMG}
                     video={BookTastic}
                     text="Book-Tastic"
-                    techStack="React.JS | Sequelize/SQL | Express.js"
+                    description={Descriptions.booktastic.description}
+                    tech="React.JS"
+                    allTech={Descriptions.booktastic.techstack}
                     link="https://book-finder2.herokuapp.com/"
+                    github="https://github.com/CaptainHdz/book-finder2"
                     />                 
                     <Card
                     id={2}
@@ -92,8 +95,11 @@ class Portfolio extends Component {
                     image={ScraperIMG}
                     video={WorldFinance}
                     text="World Finance Report"
-                    techStack="Handlebars.JS | Node.JS | MongoDB"
+                    description={Descriptions.worldFinanceReport.description}
+                    tech="Node.JS"
+                    allTech={Descriptions.worldFinanceReport.techstack}
                     link="https://tranquil-denali-preserve-30101.herokuapp.com/"
+                    github="https://github.com/CaptainHdz/dollar-scrape"
                     />
                     <Card
                     id={3}
@@ -101,8 +107,11 @@ class Portfolio extends Component {
                     image={ClickyGameIMG}
                     video={Pokememory}
                     text="Pokememory"
-                    techStack="React.JS | HTML5 | CSS3"
+                    description={Descriptions.pokememory.description}
+                    tech="React.JS"
+                    allTech={Descriptions.pokememory.techstack}
                     link="https://captainhdz.github.io/clicky-pokemonsters/"
+                    github="https://github.com/CaptainHdz/clicky-pokemonsters"
                     />
                     <Card
                     id={4}
@@ -110,8 +119,11 @@ class Portfolio extends Component {
                     image={TradedIMG}
                     video={TradED}
                     text="TradED"
-                    techStack="React.JS | Node.JS | MongoDB"
+                    description={Descriptions.traded.description}
+                    tech="React.JS"
+                    allTech={Descriptions.traded.techstack}
                     link="https://traded1.herokuapp.com/"
+                    github="https://github.com/rmathew21/project3"
                     />
                     <Card
                     id={5}
@@ -119,8 +131,11 @@ class Portfolio extends Component {
                     image={PowerListIMG}
                     video={PowerList}
                     text="The Power List"
-                    techStack="React.JS | Node.JS | MongoDB"
+                    description={Descriptions.powerList.description}
+                    tech="React.JS"
+                    allTech={Descriptions.powerList.techstack}
                     link="https://obscure-shelf-60013.herokuapp.com/"
+                    github="https://github.com/CaptainHdz/power-list"
                     />
                     <Card
                     id={6}
@@ -128,8 +143,11 @@ class Portfolio extends Component {
                     image={GiphyIMG}
                     video={GifMachine}
                     text="GIF Machine"
-                    techStack="jQuery | HTML5 | CSS3"
+                    description={Descriptions.gifMachine.description}
+                    tech="Javascript"
+                    allTech={Descriptions.gifMachine.techstack}
                     link="https://captainhdz.github.io/giphy-app/"
+                    github="https://github.com/CaptainHdz/giphy-app"
                     />                            
                 </div>
             </div>

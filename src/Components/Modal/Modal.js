@@ -36,13 +36,18 @@ const Modal = (props) => {
 				  </div>
 				  <div className="col m12 l6">
 					  <h2 className="center-txt modal-header">{props.title}</h2>
-					  <p className="center-txt">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-					  <h4 className="center-txt">{props.projectStack}</h4>
+					  <p className="center-txt">
+						  {props.projectDescription}
+					  </p>
+					  <h5 className="center-txt tech-stack">{props.projectStack}</h5>
 					  <div className="col s12 m6">
-						  <a href={props.project} target="_blank" rel="noopener noreferrer" className="btn-large visit-btn">Visit Page</a>
+						  <a href={props.project} target="_blank" rel="noopener noreferrer" id="visit-btn" className="btn-large">Visit Page</a>
 					  </div>
 					  <div className="col s12 m6">
-						  <a href='https://google.com' target="_blank" rel="noopener noreferrer" className="btn-large code-btn">View Code</a>
+						  <a href={props.codeLink} target="_blank" rel="noopener noreferrer" id="code-btn" className="btn-large">View Code</a>
+					  </div>
+					  <div className="close-container">
+						  <div className="close-btn" onClick={props.closeModal}>close</div>
 					  </div>
 				  </div>
 			  </div>
