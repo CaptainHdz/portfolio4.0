@@ -34,6 +34,8 @@ class Portfolio extends Component {
     componentDidMount() {
         const portfolio = document.getElementById('portfolio');
         const nav = document.getElementById('nav-mobile');
+        const home = nav.children[0].children[0];
+        const about = nav.children[1].children[0];
         const handleScroll = () => {
             const scroll = window.scrollY;
             if (scroll > 100) {
@@ -54,7 +56,19 @@ class Portfolio extends Component {
             window.addEventListener('scroll', handleScroll);
         });
 
-        portfolio.addEventListener('mouseout', () => {
+        home.addEventListener('click', () => {
+            nav.children[0].children[0].classList.remove('highlight-link')
+            nav.children[1].children[0].classList.remove('highlight-link')
+            nav.children[2].children[0].classList.remove('highlight-link')
+            nav.children[3].children[0].classList.remove('highlight-link')
+            window.removeEventListener('scroll', handleScroll)
+        });
+
+        about.addEventListener('click', () => {
+            nav.children[0].children[0].classList.remove('highlight-link')
+            nav.children[1].children[0].classList.remove('highlight-link')
+            nav.children[2].children[0].classList.remove('highlight-link')
+            nav.children[3].children[0].classList.remove('highlight-link')
             window.removeEventListener('scroll', handleScroll)
         });
     }
