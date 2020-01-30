@@ -37,17 +37,17 @@ class Portfolio extends Component {
         const handleScroll = () => {
             const scroll = window.scrollY;
             if (scroll > 100) {
-                nav.children[0].children[0].classList.add('black-link')
-                nav.children[1].children[0].classList.add('black-link')
-                nav.children[2].children[0].classList.add('black-link')
-                nav.children[3].children[0].classList.add('black-link')
+                nav.children[0].children[0].classList.add('highlight-link')
+                nav.children[1].children[0].classList.add('highlight-link')
+                nav.children[2].children[0].classList.add('highlight-link')
+                nav.children[3].children[0].classList.add('highlight-link')
 
             }
             else if (scroll < 100) {
-                nav.children[0].children[0].classList.remove('black-link')
-                nav.children[1].children[0].classList.remove('black-link')
-                nav.children[2].children[0].classList.remove('black-link')
-                nav.children[3].children[0].classList.remove('black-link')
+                nav.children[0].children[0].classList.remove('highlight-link')
+                nav.children[1].children[0].classList.remove('highlight-link')
+                nav.children[2].children[0].classList.remove('highlight-link')
+                nav.children[3].children[0].classList.remove('highlight-link')
             }
         };
         portfolio.addEventListener('mouseover', () => {

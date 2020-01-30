@@ -29,17 +29,12 @@ nav {
     font-weight: bold;
   }
   
-  /* .box-shadow {
-    box-shadow: 0 0 30px black;
-  
-  } */
-  
   .no-shadow {
     box-shadow: none !important;
   }
 
-  .black-link {
-    color: black;
+  .highlight-link {
+    color: rgb(21, 239, 255);
     font-weight: bold;
   }
 
