@@ -14,7 +14,7 @@ import Pokememory from './video/Pokememory.mp4';
 import BookTastic from './video/BookTastic.mp4';
 import WorldFinance from './video/World-Finance-Report.mp4';
 import TradED from './video/TradED.mp4';
-import GifMachine from './video/GIF-Demo.mp4';
+import GifMachine from './video/Gif-Machine.mp4';
 import Simple from './video/SimpleSpot.mp4';
 //Descriptions
 import Descriptions from '../../project-description.json';
