@@ -15,7 +15,7 @@ import BookTastic from './video/BookTastic.mp4';
 import WorldFinance from './video/World-Finance-Report.mp4';
 import TradED from './video/TradED.mp4';
 import GifMachine from './video/GIF-Demo.mp4';
-import PowerList from './video/Power-List.mp4';
+import Simple from './video/SimpleSpot.mp4';
 //Descriptions
 import Descriptions from '../../project-description.json';
 
@@ -171,7 +171,7 @@ class Portfolio extends Component {
                     id={5}
                     click={this.modal}
                     image={SimpleSpot}
-                    video={PowerList}
+                    video={Simple}
                     text="SimpleSpot"
                     description={Descriptions.simpleSpot.description}
                     tech="React.JS"
