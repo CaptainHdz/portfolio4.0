@@ -3,12 +3,12 @@ import './style.css';
 import Card from '../Card/card';
 import Modal from '../Modal/Modal';
 //Thumbnails for each project
-import ClickyGameIMG from './Images/clicky-game-zoom.png';
-import GiphyIMG from './Images/GIPHY.png';
-import ScraperIMG from './Images/Dollar-Scrape.PNG';
+import ClickyGameIMG from './Images/Pokememory.PNG';
+import GiphyIMG from './Images/Gif-machine.PNG';
+import ScraperIMG from './Images/Finance-report.PNG';
 import TradedIMG from './Images/TradED.png';
-import PowerListIMG from './Images/power-list.PNG';
-import BookTasticIMG from './Images/Book-Finder2-screenshot.jpg';
+import SimpleSpot from './Images/Simple-Spot.PNG';
+import BookTasticIMG from './Images/Booktastic.PNG';
 //Project video
 import Pokememory from './video/Pokememory.mp4';
 import BookTastic from './video/BookTastic.mp4';
@@ -170,14 +170,14 @@ class Portfolio extends Component {
                     <Card
                     id={5}
                     click={this.modal}
-                    image={PowerListIMG}
+                    image={SimpleSpot}
                     video={PowerList}
-                    text="The Power List"
-                    description={Descriptions.powerList.description}
+                    text="SimpleSpot"
+                    description={Descriptions.simpleSpot.description}
                     tech="React.JS"
-                    allTech={Descriptions.powerList.techstack}
-                    link="https://obscure-shelf-60013.herokuapp.com/"
-                    github="https://github.com/CaptainHdz/power-list"
+                    allTech={Descriptions.simpleSpot.techstack}
+                    link="https://guarded-tor-34996.herokuapp.com/"
+                    github="https://github.com/CaptainHdz/simple-hub"
                     />
                     <Card
                     id={6}
