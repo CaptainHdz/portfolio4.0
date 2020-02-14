@@ -134,7 +134,7 @@ class Portfolio extends Component {
                     tech="React.JS"
                     allTech={Descriptions.booktastic.techstack}
                     link="https://book-finder2.herokuapp.com/"
-                    github="https://github.com/CaptainHdz/book-finder2"
+                    github="https://github.com/Mauro-hdz/book-finder2"
                     />                 
                     <Card
                     id={2}
@@ -146,7 +146,7 @@ class Portfolio extends Component {
                     tech="Node.JS"
                     allTech={Descriptions.worldFinanceReport.techstack}
                     link="https://tranquil-denali-preserve-30101.herokuapp.com/"
-                    github="https://github.com/CaptainHdz/dollar-scrape"
+                    github="https://github.com/Mauro-hdz/dollar-scrape"
                     />
                     <Card
                     id={3}
@@ -158,7 +158,7 @@ class Portfolio extends Component {
                     tech="React.JS"
                     allTech={Descriptions.pokememory.techstack}
                     link="https://captainhdz.github.io/clicky-pokemonsters/"
-                    github="https://github.com/CaptainHdz/clicky-pokemonsters"
+                    github="https://github.com/Mauro-hdz/clicky-pokemonsters"
                     />
                     <Card
                     id={4}
@@ -182,7 +182,7 @@ class Portfolio extends Component {
                     tech="React.JS"
                     allTech={Descriptions.simpleSpot.techstack}
                     link="https://guarded-tor-34996.herokuapp.com/"
-                    github="https://github.com/CaptainHdz/simple-hub"
+                    github="https://github.com/Mauro-hdz/simple-hub"
                     />
                     <Card
                     id={6}
@@ -194,7 +194,7 @@ class Portfolio extends Component {
                     tech="Javascript"
                     allTech={Descriptions.gifMachine.techstack}
                     link="https://captainhdz.github.io/giphy-app/"
-                    github="https://github.com/CaptainHdz/giphy-app"
+                    github="https://github.com/Mauro-hdz/giphy-app"
                     />                            
                 </div>
             </div>
