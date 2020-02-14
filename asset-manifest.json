@@ -1,36 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.576215c4.chunk.css",
-    "main.js": "/static/js/main.65172dad.chunk.js",
-    "main.js.map": "/static/js/main.65172dad.chunk.js.map",
+    "main.js": "/static/js/main.387388cb.chunk.js",
+    "main.js.map": "/static/js/main.387388cb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.25cc8cd7.js",
     "runtime-main.js.map": "/static/js/runtime-main.25cc8cd7.js.map",
     "static/js/2.174585b6.chunk.js": "/static/js/2.174585b6.chunk.js",
     "static/js/2.174585b6.chunk.js.map": "/static/js/2.174585b6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.469585da81a82a1e92d09dfa45fc3135.js": "/precache-manifest.469585da81a82a1e92d09dfa45fc3135.js",
+    "precache-manifest.fb52ff99accb64e85c1769368cdc2dfa.js": "/precache-manifest.fb52ff99accb64e85c1769368cdc2dfa.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.576215c4.chunk.css.map": "/static/css/main.576215c4.chunk.css.map",
     "static/js/2.174585b6.chunk.js.LICENSE": "/static/js/2.174585b6.chunk.js.LICENSE",
-    "static/media/Book-Finder2-screenshot.jpg": "/static/media/Book-Finder2-screenshot.f26210e9.jpg",
     "static/media/BookTastic.mp4": "/static/media/BookTastic.9652b190.mp4",
-    "static/media/Dollar-Scrape.PNG": "/static/media/Dollar-Scrape.a4903357.PNG",
-    "static/media/GIF-Demo.mp4": "/static/media/GIF-Demo.6a4fcede.mp4",
-    "static/media/GIPHY.png": "/static/media/GIPHY.633d0b13.png",
+    "static/media/Booktastic.PNG": "/static/media/Booktastic.df4d0488.PNG",
+    "static/media/Finance-report.PNG": "/static/media/Finance-report.5a94d83b.PNG",
+    "static/media/Gif-Machine.mp4": "/static/media/Gif-Machine.dd43ffc7.mp4",
+    "static/media/Gif-machine.PNG": "/static/media/Gif-machine.6f642c79.PNG",
     "static/media/IMG.jpg": "/static/media/IMG.e49c61ca.jpg",
     "static/media/Pokememory.mp4": "/static/media/Pokememory.ed3c0944.mp4",
-    "static/media/Power-List.mp4": "/static/media/Power-List.3281db0d.mp4",
+    "static/media/Pokememory.PNG": "/static/media/Pokememory.f0e4742e.PNG",
+    "static/media/Simple-Spot.PNG": "/static/media/Simple-Spot.5a0ab93f.PNG",
+    "static/media/SimpleSpot.mp4": "/static/media/SimpleSpot.695c78f4.mp4",
     "static/media/TradED.mp4": "/static/media/TradED.a3a65272.mp4",
-    "static/media/TradED.png": "/static/media/TradED.e5161e4d.png",
+    "static/media/TradED.png": "/static/media/TradED.d180524a.png",
     "static/media/World-Finance-Report.mp4": "/static/media/World-Finance-Report.83c1b457.mp4",
-    "static/media/style.css": "/static/media/blue-space.558d96ae.jpg",
-    "static/media/clicky-game-zoom.png": "/static/media/clicky-game-zoom.7044dfb5.png",
-    "static/media/power-list.PNG": "/static/media/power-list.76b6f98f.PNG"
+    "static/media/style.css": "/static/media/blue-space.558d96ae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.25cc8cd7.js",
     "static/js/2.174585b6.chunk.js",
     "static/css/main.576215c4.chunk.css",
-    "static/js/main.65172dad.chunk.js"
+    "static/js/main.387388cb.chunk.js"
   ]
 }
