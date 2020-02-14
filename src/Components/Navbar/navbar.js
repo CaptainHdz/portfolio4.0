@@ -28,7 +28,7 @@ const Navbar = () => {
                 <div className="nav-wrapper">
                     <div data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></div>
                     <span className="name right">Mauricio Hernandez</span>
-                    <ul id="nav-mobile" className="left hide-on-med-and-down">
+                    <ul id="nav-list" className="left hide-on-med-and-down">
                         <li><Link id="home-link" to="/">Home</Link></li>
                         <li><Link to="/#about">About</Link></li>    
                         <li><Link to="/portfolio#portfolio">Portfolio</Link></li>

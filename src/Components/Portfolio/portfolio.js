@@ -33,7 +33,7 @@ class Portfolio extends Component {
 
     componentDidMount() {
         const portfolio = document.getElementById('portfolio');
-        const nav = document.getElementById('nav-mobile');
+        const nav = document.getElementById('nav-list');
         const home = nav.children[0].children[0];
         const about = nav.children[1].children[0];
         const handleScroll = () => {
@@ -74,8 +74,6 @@ class Portfolio extends Component {
     }
 
     modal = (id) => {
-        document.body.style.position = 'auto';
-        document.body.style.overflow = 'hidden';
 
         const card = document.getElementById(id);
         const title = card.children[0].children[1].children[0].innerHTML;
@@ -84,6 +82,11 @@ class Portfolio extends Component {
         const description = card.getAttribute('description');
         const projectLink = card.getAttribute('deployedlink');
         const github = card.getAttribute('githublink');
+        const navbarLinks = document.getElementById('nav-list')
+
+        navbarLinks.style.display = 'none';
+        document.body.style.overflow = 'hidden';
+
 
         this.setState({
             title: title,
@@ -100,6 +103,8 @@ class Portfolio extends Component {
         this.setState({
             modal: false
         });
+        const navbarLinks = document.getElementById('nav-list')
+        navbarLinks.style.display = '';
 		document.body.style.overflow = '';
 	};
 
