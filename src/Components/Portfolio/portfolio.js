@@ -157,7 +157,7 @@ class Portfolio extends Component {
                     description={Descriptions.pokememory.description}
                     tech="React.JS"
                     allTech={Descriptions.pokememory.techstack}
-                    link="https://captainhdz.github.io/clicky-pokemonsters/"
+                    link="https://mauro-hdz.github.io/clicky-pokemonsters/"
                     github="https://github.com/Mauro-hdz/clicky-pokemonsters"
                     />
                     <Card
@@ -193,7 +193,7 @@ class Portfolio extends Component {
                     description={Descriptions.gifMachine.description}
                     tech="Javascript"
                     allTech={Descriptions.gifMachine.techstack}
-                    link="https://captainhdz.github.io/giphy-app/"
+                    link="https://mauro-hdz.github.io/giphy-app/"
                     github="https://github.com/Mauro-hdz/giphy-app"
                     />                            
                 </div>
