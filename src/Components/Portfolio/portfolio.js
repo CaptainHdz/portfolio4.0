@@ -123,7 +123,8 @@ class Portfolio extends Component {
                  open={this.state.modal}
                  closeModal={this.closeModal}
                  />
-                <div id="portfolio-container" className="container row" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div id="portfolio-container" className="container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                    <div style={{marginBottom: 0}} className="row">
                     <Card
                     id={1}
                     click={this.modal}
@@ -195,7 +196,8 @@ class Portfolio extends Component {
                     allTech={Descriptions.gifMachine.techstack}
                     link="https://mauro-hdz.github.io/giphy-app/"
                     github="https://github.com/Mauro-hdz/giphy-app"
-                    />                            
+                    />                  
+                    </div>   
                 </div>
             </div>
         )
