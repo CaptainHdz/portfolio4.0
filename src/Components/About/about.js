@@ -11,21 +11,16 @@ const About = () => {
 			<hr className='divider' />
 			<div className='container'>
 				<div id='about-row-1' className='row'>
-					<div
-						id='left'
-						className='col m12 l6 white-text'
-						// data-aos='fade-right'
-						// data-aos-duration='1200'
-					>
+					<div id='left' className='col m12 l6 white-text'>
 						<h3 id='introduction'>
-							<div data-aos='fade-right' data-aos-duration='800'>
+							<div data-aos='fade-right' data-aos-duration='1000'>
 								Hi! I'm Mauricio Hernandez.
 							</div>
 							<br />
 							<div
 								data-aos='fade-right'
 								data-aos-duration='1000'
-								data-aos-delay='800'
+								data-aos-delay='1000'
 							>
 								I'm A Full Stack Software Developer.
 							</div>
