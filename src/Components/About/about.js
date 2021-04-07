@@ -20,9 +20,9 @@ const About = () => {
 							<div
 								data-aos='fade-right'
 								data-aos-duration='1000'
-								data-aos-delay='1000'
+								data-aos-delay='500'
 							>
-								I'm A Full Stack Software Developer.
+								I'm A Software Developer.
 							</div>
 						</h3>
 					</div>

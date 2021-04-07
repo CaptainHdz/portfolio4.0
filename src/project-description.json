@@ -1,36 +1,32 @@
 {
-    "booktastic": {
-        "description": "Book-Tastic is a search platform for a wide range of books. It will search for up to 10 books at a time and return a description, book cover, title, and author when it is available. It is capable of saving an interesting book for later, and even directs you to a purchase on Amazon. ",
+	"booktastic": {
+		"description": "Book-Tastic is a search platform for a wide range of books. It will search for up to 10 books at a time and return a description, book cover, title, and author when it is available. It is capable of saving an interesting book for later, and even directs you to a purchase on Amazon. ",
 
-        "techstack": "React.JS | Node.JS | SQL/Sequelize | Express.JS | HTML5 | CSS3 | Google Books API | NPM"
-    },
-    "worldFinanceReport": {
-        "description": "World Finance Report is a useful finacial news web application that allows users to save any article that they find and wish to read later. The user may even leave a note on their saved article. Never lose track of an article again.",
+		"techstack": "React.JS | Node.JS | SQL/Sequelize | Express.JS | HTML5 | CSS3 | Google Books API | NPM"
+	},
+	"worldFinanceReport": {
+		"description": "World Finance Report is a useful finacial news web application that allows users to save any article that they find and wish to read later. The user may even leave a note on their saved article. Never lose track of an article again.",
 
-        "techstack": "Handlebars.JS | Node.JS | MongoDB/Mongoose | Express.JS | HTML5 | CSS3 | NPM"
-    },
-    "pokememory": {
-        "description": "A simple, yet fun memory game in the spirit of the popular series, Pokememory displays 15 cards to the user and challenges you to click all the cards to win the game. Keep track of your score and the top score you've achieved in your gaming session.",
+		"techstack": "Handlebars.JS | Node.JS | MongoDB/Mongoose | Express.JS | HTML5 | CSS3 | NPM"
+	},
+	"pokememory": {
+		"description": "A simple, yet fun memory game in the spirit of the popular series, Pokememory displays 15 cards to the user and challenges you to click all the cards to win the game. Keep track of your score and the top score you've achieved in your gaming session.",
 
-        "techstack": "React.JS | Node.JS | HTML5 | CSS3"
+		"techstack": "React.JS | Node.JS | HTML5 | CSS3"
+	},
+	"traded": {
+		"description": "An educative stock market platform concept, TradED was built as part of a team of 3 with the focus on delivering a simple and straightforward platform to learn about the stock market. The web app is a UI concept with implementation of graphs that display the most recent market data of the companies on display.",
 
-    },
-    "traded": {
-        "description": "An educative stock market platform concept, TradED was built as part of a team of 3 with the focus on delivering a simple and straightforward platform to learn about the stock market. The web app is a UI concept with implementation of graphs that display the most recent market data of the companies on display.",
+		"techstack": "React.JS | Node.JS | MongoDB/Mongoose | Express.JS | HTML5 | CSS3 | AlphaVantage API | NPM"
+	},
+	"simpleSpot": {
+		"description": "SimpleCRM is an easy to use Client Relationship Manager capable of storing information regarding Contacts, Meetings, and Tasks. The CRM is capable of editing any piece of information, and if need be, data may be deleted too. SimpleCRM can add new information in a user-friendly way as well. An account must be created to access the app.",
 
-        "techstack": "React.JS | Node.JS | MongoDB/Mongoose | Express.JS | HTML5 | CSS3 | AlphaVantage API | NPM"
+		"techstack": "React.JS | Python | MySQL/SQLAlchemy | Flask | HTML5 | CSS3"
+	},
+	"gifMachine": {
+		"description": "The GIF Machine is a fun web app that is capable of retrieving GIFS from the GIPHY API. Make a search and then click on the newly added button to retrieve some entertaining GIFs. Click on a GIF to play and pause them as you please.",
 
-    },
-    "simpleSpot": {
-        "description": "Simple Spot is an easy to use CRM capable of storing information on Contacts, Meetings, and Tasks at hand! The CRM is capable of editing any piece of information, and if need be, data may be deleted too. Simple Spot can add new information in a user-friendly way as well.",
-
-        "techstack": "React.JS | Python | MySQL/SQLAlchemy | Flask | HTML5 | CSS3"
-
-    },
-    "gifMachine": {
-        "description": "The GIF Machine is a fun web app that is capable of retrieving GIFS from the GIPHY API. Make a search and then click on the newly added button to retrieve some entertaining GIFs. Click on a GIF to play and pause them as you please.",
-
-        "techstack": "Javascript | jQuery | HTML5 | CSS3 | GIPHY API"
-
-    }
+		"techstack": "Javascript | jQuery | HTML5 | CSS3 | GIPHY API"
+	}
 }
