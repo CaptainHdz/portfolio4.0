@@ -1,113 +1,111 @@
 @media (min-width: 600px) {
-    #about {
-        min-height: 100vh;
-    }
+	#about {
+		min-height: 100vh;
+	}
 }
 
-
 #who {
-    font-weight: bolder;
-    margin: 0;
-    padding-top: 10px;
-    font-family: 'Ubuntu', sans-serif;
-    color: rgb(21, 239, 255);
+	font-weight: bolder;
+	margin: 0;
+	padding-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(21, 239, 255);
 }
 
 #about-row-1 {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
+/* .padding-x {
+	padding-left: 2em !important;
+	padding-right: 2em !important;
+} */
+
 #introduction {
-    text-shadow: black 0 0 10px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5em;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 80%;
-    margin-right: 20%;
-    z-index: 2;
-    position: absolute;
-    color: rgb(21, 239, 255);
-    transition: 1s
+	text-shadow: black 0 0 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 4em;
+	/* font-style: italic; */
+	font-weight: bold;
+	margin-top: 20%;
+	/* margin-right: 20%; */
+	color: rgb(21, 239, 255);
+	transition: 1s;
 }
 
 #introduction:hover {
-    transform: translate3d(-5px, 0px, 0px);
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
+	transform: translate3d(-5px, 0px, 0px);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
 }
 
-
-
 #summary {
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20%;
+	margin-bottom: 10%;
+	font-size: 1.5em;
 }
 
 #summ-intro {
-    color: rgb(21, 239, 255);
-    font-weight: bolder;
+	color: rgb(21, 239, 255);
+	font-weight: bolder;
 }
 
 #img-container {
-    margin-top: 10%;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    border-radius: 5%;
-    transition: 1s;
+	margin-top: 10%;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	border-radius: 5%;
+	transition: 1s;
 }
 
 #picture {
-    border-radius: 5%;
-    max-width: 100%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+	border-radius: 5%;
+	max-width: 100%;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 
 #overlay {
-    border-radius: 5%;
-    position: absolute;
-    width: 100%;
-    height: 99.2%;
-    background-color: rgb(63, 63, 63);
-    left: 0;
-    opacity: .3;
+	border-radius: 5%;
+	position: absolute;
+	width: 100%;
+	height: 99.2%;
+	background-color: rgb(63, 63, 63);
+	left: 0;
+	opacity: 0.3;
 }
 
 #img-container:hover {
-    transform: translate3d(-5px, 0px, 0px);
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
+	transform: translate3d(-5px, 0px, 0px);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
 }
 
 .divider {
-    width: 33%;
-    margin: auto;
+	width: 33%;
+	margin: auto;
 }
 
 #right-arrow {
-    position: relative;
-    border: 1px solid white;
-    right: -30%;
-    bottom: 5%;
-    cursor: pointer;
-    transition: .5s;
+	position: relative;
+	border: 1px solid white;
+	right: -30%;
+	bottom: 5%;
+	cursor: pointer;
+	transition: 0.5s;
 }
 
 #right-arrow:hover {
-    border-radius: 50%;
-    border: 3px solid white;
-  }
-
-
-  @media (min-width: 600px) {
-#img-container {
-    margin-top: 20%;
-    width: 70%;
+	border-radius: 50%;
+	border: 3px solid white;
 }
-  }
 
+@media (min-width: 600px) {
+	#img-container {
+		margin-top: 20%;
+		width: 70%;
+	}
+}
