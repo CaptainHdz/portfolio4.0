@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import './style.css';
+
 import Card from '../Card/card';
 import Modal from '../Modal/Modal';
 //Thumbnails for each project
-import ClickyGameIMG from './Images/Pokememory.PNG';
-import GiphyIMG from './Images/Gif-machine.PNG';
-import ScraperIMG from './Images/Finance-report.PNG';
+// import GiphyIMG from './Images/Gif-machine.PNG';
+// import ClickyGameIMG from './Images/Pokememory.PNG';
 import TradedIMG from './Images/TradED.png';
 import SimpleSpot from './Images/Simple-Spot.PNG';
 import BookTasticIMG from './Images/Booktastic.PNG';
+import ScraperIMG from './Images/Finance-report.PNG';
+
 //Project video
-import Pokememory from './video/Pokememory.mp4';
+// import Pokememory from './video/Pokememory.mp4';
+// import GifMachine from './video/Gif-Machine.mp4';
+import TradED from './video/TradED.mp4';
+import Simple from './video/SimpleSpot.mp4';
 import BookTastic from './video/BookTastic.mp4';
 import WorldFinance from './video/World-Finance-Report.mp4';
-import TradED from './video/TradED.mp4';
-import GifMachine from './video/Gif-Machine.mp4';
-import Simple from './video/SimpleSpot.mp4';
 //Descriptions
 import Descriptions from '../../project-description.json';
 
@@ -158,7 +160,7 @@ class Portfolio extends Component {
 							link='https://tranquil-denali-preserve-30101.herokuapp.com/'
 							github='https://github.com/Mauro-hdz/dollar-scrape'
 						/>
-						<Card
+						{/* <Card
 							id={3}
 							click={this.modal}
 							image={ClickyGameIMG}
@@ -169,7 +171,7 @@ class Portfolio extends Component {
 							allTech={Descriptions.pokememory.techstack}
 							link='https://mauro-hdz.github.io/clicky-pokemonsters/'
 							github='https://github.com/Mauro-hdz/clicky-pokemonsters'
-						/>
+						/> */}
 						<Card
 							id={5}
 							click={this.modal}
@@ -194,7 +196,7 @@ class Portfolio extends Component {
 							link='https://traded1.herokuapp.com/'
 							github='https://github.com/rmathew21/project3'
 						/>
-						<Card
+						{/* <Card
 							id={6}
 							click={this.modal}
 							image={GiphyIMG}
@@ -205,7 +207,7 @@ class Portfolio extends Component {
 							allTech={Descriptions.gifMachine.techstack}
 							link='https://mauro-hdz.github.io/giphy-app/'
 							github='https://github.com/Mauro-hdz/giphy-app'
-						/>
+						/> */}
 					</div>
 				</div>
 			</div>
